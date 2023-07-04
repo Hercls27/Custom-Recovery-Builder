@@ -16,7 +16,7 @@ on:
         default: ''
         type: choice
         options:
-        - https://github.com/Hercls27/custom_recovery_tree_NUBIA_NX709S
+        - https://github.com/PitchBlackRecoveryProject/manifest_pb.git
       MANIFEST_BRANCH:
         description: 'Manifest Branch'
         required: true
