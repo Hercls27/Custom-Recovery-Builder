@@ -16,7 +16,7 @@ on:
         default: ''
         type: choice
         options:
-        - https://github.com/PitchBlackRecoveryProject/manifest_pb.git
+        - https://github.com/PitchBlackRecoveryProject/manifest_pb
       MANIFEST_BRANCH:
         description: 'Manifest Branch'
         required: true
@@ -100,8 +100,8 @@ jobs:
         mkdir workspace
         cd workspace
         echo "workdir=$(pwd)" >> $GITHUB_OUTPUT
-        git config --global user.name "Carlo Dandan"
-        git config --global user.email "jasminecarlo01@gmail.com"
+        git config --global user.name "Hercls27"
+        git config --global user.email "theevildead72@gmail.com"
         repo init --depth=1 -u ${{ github.event.inputs.MANIFEST_URL }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
       id: pwd
         
