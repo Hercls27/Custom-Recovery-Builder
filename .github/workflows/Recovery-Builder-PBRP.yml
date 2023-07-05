@@ -23,7 +23,7 @@ on:
         default: ''
         type: choice
         options:
-        - android-12.1
+        - twrp-12.1
         - android-11
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
